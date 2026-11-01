@@ -1,6 +1,6 @@
 {
     "name": "libxcf",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "GIMP (XCF) decoder",
     "filters":["xcfdec"],
     "help": "This filter decodes GIMP XCF documents using the core of xcftools, compositing the visible layers onto the canvas.",
@@ -14,7 +14,7 @@
     "extension":{
       "xcf" : "img"
     },
-    "using": ["solver_minimal_1", "solver_1"],
+    "using": ["mm_solver_minimal_1.0.1", "mm_solver_1.0.1"],
     "patents": {
         "status": "royalty-free",
         "note": "GIMP XCF",

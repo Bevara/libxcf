@@ -1,5 +1,5 @@
 /*
- *  Symbols the xcftools core references that solver_minimal_1 does not export.
+ *  Symbols the xcftools core references that mm_solver_minimal_1.0.1 does not export.
  *  A side module whose imports are not all resolved never instantiates at all -
  *  the filter simply never registers - so each has to be defined here, the
  *  approach libape, libjxr and libpsd already take.
